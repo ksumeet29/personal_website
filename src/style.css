@@ -1,0 +1,108 @@
+:root {
+    --accent: #2563eb;
+    --accent-dark: #1d4ed8;
+    --text: #1f2937;
+    --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--accent);
+    color: white;
+}
+
+.tagline {
+    margin: 0.25rem 0 0;
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+.meta {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+section { margin-bottom: 2rem; }
+
+h1 { margin: 0; }
+
+h2 {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.25rem;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.contact-list .label {
+    flex: 0 0 90px;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.contact-list a {
+    color: var(--accent);
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.contact-list a:hover { text-decoration: underline; }
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.btn:hover { background: var(--accent-dark); }
+
+.btn-secondary {
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+}
+
+.btn-secondary:hover {
+    background: var(--accent);
+    color: white;
+}
