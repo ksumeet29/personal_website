@@ -34,17 +34,16 @@
         <span class="hero__name-text">Sumeet Kumar</span>
       </h1>
       <p class="hero__tagline">
-        I build things at the intersection of <em>technology</em> and <em>human experience</em>.
-        Currently focused on [your current focus].
+        I am an <em>Automotive Software Engineer</em> working on next generation vehicles.
+        Currently focused on Embedded Software Development and Vehicle Testing.
       </p>
       <div class="hero__actions">
         <a href="#projects" class="btn btn--primary">See my work</a>
         <a href="#writing" class="btn btn--ghost">Read my writing</a>
       </div>
       <div class="hero__chips">
-        <span class="chip">Software Engineer</span>
-        <span class="chip">Open Source</span>
-        <span class="chip">Based in Gothenburg</span>
+        <span class="chip">Automotive Software Engineer</span>
+        <span class="chip">Based in Gothenburg, Sweden</span>
       </div>
     </div>
     <div class="hero__scroll-hint" aria-hidden="true">
@@ -59,17 +58,17 @@
       <div class="section__body">
         <h2 class="section__heading">A little about me</h2>
         <p>
-          I'm a [your role] with a passion for [your passion]. I've spent the last [X] years
-          working on [domain], and I care deeply about building things that are both technically
+          I'm a Mechnical Engineer with a passion for Cars. I've spent the last 2 years
+          working on developing software for Chassis systems, and I care deeply about building things that are both technically
           excellent and genuinely useful to people.
         </p>
         <p>
-          Before [current thing], I studied [field] at [university]. Outside of work I'm usually
-          [hobby 1], [hobby 2], or reading about [interest].
+          Before starting as a professional, I studied Vehicle Engineering at KTH Royal Institute of Technology in Stockholm. Outside of work I'm usually
+          learning Bachata, or reading about how to get jacked.
         </p>
         <div class="stat-row">
           <div class="stat">
-            <span class="stat__number">5+</span>
+            <span class="stat__number">4+</span>
             <span class="stat__label">Years of experience</span>
           </div>
           <div class="stat">
@@ -226,7 +225,7 @@
   <footer class="footer">
     <div class="footer__inner">
       <span class="footer__name">Sumeet Kumar</span>
-      <span class="footer__copy">© 2025 — Built with care</span>
+      <span class="footer__copy">© 2026 — Built with care</span>
     </div>
   </footer>
 
