@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p class="tagline">Software Engineer</p>
+        <h1>Sumeet Kumar</h1>
+        <p class="tagline">Automotive Software Engineer</p>
         <p class="meta">Built with CMake &bull; v@PROJECT_VERSION@ &bull; @BUILD_DATE@</p>
     </header>
 
@@ -24,16 +24,16 @@
             <ul class="contact-list">
                 <li>
                     <span class="label">Email</span>
-                    <a href="mailto:you@example.com">you@example.com</a>
+                    <a href="mailto:sumeet.29kumar@gmail.com">sumeet.29kumar@gmail.com</a>
                 </li>
                 <li>
                     <span class="label">Phone</span>
-                    <a href="tel:+11234567890">+1 (123) 456-7890</a>
+                    <a href="tel:+46727852565">+46727852565</a>
                 </li>
                 <li>
                     <span class="label">LinkedIn</span>
-                    <a href="https://www.linkedin.com/in/your-profile/" target="_blank" rel="noopener">
-                        linkedin.com/in/your-profile
+                    <a href="https://www.linkedin.com/in/ksumeet29/" target="_blank" rel="noopener">
+                        linkedin.com/in/ksumeet29
                     </a>
                 </li>
                 <li>
@@ -43,14 +43,14 @@
             </ul>
 
             <div class="actions">
-                <a class="btn" href="mailto:you@example.com">Email Me</a>
+                <a class="btn" href="mailto:sumeet.29kumar@gmail.com">Email Me</a>
                 <a class="btn btn-secondary" href="resume.pdf" target="_blank" rel="noopener">View Resume</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; @BUILD_DATE@ &mdash; Your Name</p>
+        <p>&copy; @BUILD_DATE@ &mdash; Sumeet Kumar</p>
     </footer>
 
     <script src="script.js"></script>
