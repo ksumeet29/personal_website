@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Your Name</title>
+  <meta name="description" content="The longer story — who I am, what I care about, and how I got here." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">YN</a>
+      <nav class="nav__links">
+        <a href="about.html" style="color: var(--text)">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#writing">Writing</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a href="resume.pdf" class="btn btn--ghost" target="_blank">Resume ↗</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="about-hero">
+    <div class="about-hero__inner">
+      <p class="hero__eyebrow">The longer story</p>
+      <h1 class="about-hero__title">About me</h1>
+    </div>
+  </section>
+
+  <!-- INTRO: photo left, bio right -->
+  <section class="section">
+    <div class="section__inner about-intro">
+
+      <div class="about-photos">
+        <!-- Primary headshot -->
+        <div class="about-photo about-photo--main">
+          <img src="headshot.jpg" alt="Your Name"
+               onerror="this.parentElement.classList.add('photo-placeholder')" />
+        </div>
+        <!-- Secondary candid — swap src for any second photo -->
+        <div class="about-photo about-photo--secondary">
+          <img src="photo2.jpg" alt="Your Name — candid"
+               onerror="this.parentElement.classList.add('photo-placeholder')" />
+        </div>
+      </div>
+
+      <div class="about-bio">
+        <h2 class="section__heading">Hi, I'm [Your Name]</h2>
+        <p>
+          I'm a [your role] based in Gothenburg, Sweden. I spend most of my time thinking
+          about [domain] — specifically how [interesting angle on your field]. I care
+          about building things that are technically excellent <em>and</em> genuinely useful
+          to people, and I believe those two goals are less in tension than people assume.
+        </p>
+        <p>
+          Before [current role], I studied [field] at [university]. That experience shaped
+          how I think about [something specific it taught you]. I've been lucky to work on
+          [brief mention of interesting past work].
+        </p>
+        <p>
+          Outside of work I'm usually [hobby], [hobby], or somewhere in the middle of a
+          book I'll tell everyone about.
+        </p>
+        <div class="about-cta-row">
+          <a href="resume.pdf" class="btn btn--primary" target="_blank">Download CV ↗</a>
+          <a href="index.html#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOW -->
+  <section class="section section--alt">
+    <div class="section__inner about-now">
+      <div class="about-now__label">
+        <div class="section__label">Now</div>
+        <span class="now-dot"></span>
+      </div>
+      <div class="about-now__body">
+        <h2 class="section__heading">What I'm doing right now</h2>
+        <p class="section__subtext" style="margin-bottom: 0">
+          This is a <a href="https://nownownow.com/about" target="_blank" rel="noopener" class="inline-link">/now page</a>
+          — a snapshot of what's currently occupying my attention, updated occasionally.
+        </p>
+        <div class="now-grid">
+          <div class="now-card">
+            <span class="now-card__icon">🛠</span>
+            <h3 class="now-card__title">Building</h3>
+            <p>Describe what you're actively working on — a project, a tool, something at work. Be specific.</p>
+          </div>
+          <div class="now-card">
+            <span class="now-card__icon">📖</span>
+            <h3 class="now-card__title">Reading</h3>
+            <p>The book on your nightstand. Or the paper you can't stop thinking about. Or both.</p>
+          </div>
+          <div class="now-card">
+            <span class="now-card__icon">🌱</span>
+            <h3 class="now-card__title">Learning</h3>
+            <p>The skill or subject you're deliberately practising right now — and why you picked it.</p>
+          </div>
+          <div class="now-card">
+            <span class="now-card__icon">🎯</span>
+            <h3 class="now-card__title">Focused on</h3>
+            <p>One thing you're saying yes to, and as a result, what you're deliberately saying no to.</p>
+          </div>
+        </div>
+        <p class="now-updated">Last updated: June 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section">
+    <div class="section__inner">
+      <div class="section__label">Background</div>
+      <h2 class="section__heading">How I got here</h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2024 – Present</span>
+            <h3 class="timeline__title">[Current Role] · [Company]</h3>
+            <p>What you're doing and what makes it interesting. One or two sentences is enough — this isn't a CV.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2022 – 2024</span>
+            <h3 class="timeline__title">[Previous Role] · [Company]</h3>
+            <p>The thing you're most proud of from this chapter. A shipped project, a lesson learned, a team you helped build.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2018 – 2022</span>
+            <h3 class="timeline__title">[Degree] · [University]</h3>
+            <p>Your field of study and the most formative thing about that time — academically or otherwise.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker timeline__marker--origin"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Earlier</span>
+            <h3 class="timeline__title">The beginning</h3>
+            <p>Where you grew up, what got you interested in [your field], or the earliest thing that set the direction.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY: photos from your life -->
+  <section class="section section--alt">
+    <div class="section__inner">
+      <div class="section__label">Life outside work</div>
+      <h2 class="section__heading">A few pictures</h2>
+      <p style="color: var(--text-muted); margin-bottom: 2.5rem; max-width: 520px;">
+        Replace these placeholders with real photos — a trip, a project, your workspace,
+        something that shows who you are outside of a job title.
+      </p>
+      <div class="photo-gallery">
+        <div class="gallery-item gallery-item--wide">
+          <img src="photo-gallery-1.jpg" alt="Caption for photo 1"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <span class="gallery-caption">Caption for photo 1</span>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-gallery-2.jpg" alt="Caption for photo 2"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <span class="gallery-caption">Caption for photo 2</span>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-gallery-3.jpg" alt="Caption for photo 3"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <span class="gallery-caption">Caption for photo 3</span>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-gallery-4.jpg" alt="Caption for photo 4"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <span class="gallery-caption">Caption for photo 4</span>
+        </div>
+        <div class="gallery-item">
+          <img src="photo-gallery-5.jpg" alt="Caption for photo 5"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <span class="gallery-caption">Caption for photo 5</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKSHELF & INFLUENCES -->
+  <section class="section">
+    <div class="section__inner">
+      <div class="section__label">Mind & Influences</div>
+      <h2 class="section__heading">Things that shaped how I think</h2>
+      <div class="influences-grid">
+
+        <div class="influence-group">
+          <h3 class="influence-group__title">Books I return to</h3>
+          <ul class="influence-list">
+            <li><span class="influence-title">Book Title</span> <span class="influence-author">— Author</span></li>
+            <li><span class="influence-title">Book Title</span> <span class="influence-author">— Author</span></li>
+            <li><span class="influence-title">Book Title</span> <span class="influence-author">— Author</span></li>
+            <li><span class="influence-title">Book Title</span> <span class="influence-author">— Author</span></li>
+          </ul>
+        </div>
+
+        <div class="influence-group">
+          <h3 class="influence-group__title">People I learn from</h3>
+          <ul class="influence-list">
+            <li><span class="influence-title">Person / Thinker</span> <span class="influence-author">— why they're interesting</span></li>
+            <li><span class="influence-title">Person / Thinker</span> <span class="influence-author">— why they're interesting</span></li>
+            <li><span class="influence-title">Person / Thinker</span> <span class="influence-author">— why they're interesting</span></li>
+          </ul>
+        </div>
+
+        <div class="influence-group">
+          <h3 class="influence-group__title">Tools I live in</h3>
+          <ul class="influence-list">
+            <li><span class="influence-title">Tool or editor</span> <span class="influence-author">— what you use it for</span></li>
+            <li><span class="influence-title">Tool or editor</span> <span class="influence-author">— what you use it for</span></li>
+            <li><span class="influence-title">Tool or editor</span> <span class="influence-author">— what you use it for</span></li>
+          </ul>
+        </div>
+
+        <div class="influence-group">
+          <h3 class="influence-group__title">Values I try to live by</h3>
+          <ul class="influence-list">
+            <li><span class="influence-title">Directness</span> <span class="influence-author">— say what you mean</span></li>
+            <li><span class="influence-title">Craft</span> <span class="influence-author">— details compound over time</span></li>
+            <li><span class="influence-title">Curiosity</span> <span class="influence-author">— the answer is always interesting</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FUN FACTS / QUICK TAKES -->
+  <section class="section section--alt">
+    <div class="section__inner">
+      <div class="section__label">Quick takes</div>
+      <h2 class="section__heading">A few things you might not guess</h2>
+      <div class="takes-grid">
+        <div class="take">
+          <span class="take__emoji">🌍</span>
+          <p>You've lived in / visited [X countries / cities]. Which one surprised you most?</p>
+        </div>
+        <div class="take">
+          <span class="take__emoji">🎵</span>
+          <p>Something unexpected about your taste in music, podcasts, or how you focus.</p>
+        </div>
+        <div class="take">
+          <span class="take__emoji">🏃</span>
+          <p>A sport, hobby, or physical pursuit that grounds you and why you started it.</p>
+        </div>
+        <div class="take">
+          <span class="take__emoji">🍳</span>
+          <p>Something you're genuinely good at outside of work that surprises people.</p>
+        </div>
+        <div class="take">
+          <span class="take__emoji">💬</span>
+          <p>A belief you hold that you think most people in your field would disagree with.</p>
+        </div>
+        <div class="take">
+          <span class="take__emoji">📍</span>
+          <p>Why Gothenburg specifically? What do you like — or find odd — about living there?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__name">Your Name</span>
+      <span class="footer__copy">© 2025 — Built with care</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

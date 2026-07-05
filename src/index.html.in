@@ -15,9 +15,9 @@
   <!-- NAV -->
   <header class="nav" id="nav">
     <div class="nav__inner">
-      <a href="#" class="nav__logo">YN</a>
+      <a href="index.html" class="nav__logo">YN</a>
       <nav class="nav__links">
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
         <a href="#projects">Projects</a>
         <a href="#writing">Writing</a>
         <a href="#contact">Contact</a>
@@ -28,59 +28,45 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero__inner">
-      <p class="hero__eyebrow">Hi, I'm</p>
-      <h1 class="hero__name">
-        <span class="hero__name-text">Sumeet Kumar</span>
-      </h1>
-      <p class="hero__tagline">
-        I am an <em>Automotive Software Engineer</em> working on next generation vehicles.
-        Currently focused on Embedded Software Development and Vehicle Testing.
-      </p>
-      <div class="hero__actions">
-        <a href="#projects" class="btn btn--primary">See my work</a>
-        <a href="#writing" class="btn btn--ghost">Read my writing</a>
-      </div>
-      <div class="hero__chips">
-        <span class="chip">Automotive Software Engineer</span>
-        <span class="chip">Based in Gothenburg, Sweden</span>
-      </div>
-    </div>
-    <div class="hero__scroll-hint" aria-hidden="true">
-      <span class="scroll-line"></span>
-    </div>
-  </section>
+    <div class="hero__inner hero__inner--split">
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <div class="section__inner section__inner--split">
-      <div class="section__label">About</div>
-      <div class="section__body">
-        <h2 class="section__heading">A little about me</h2>
-        <p>
-          I'm a Mechnical Engineer with a passion for Cars. I've spent the last 2 years
-          working on developing software for Chassis systems, and I care deeply about building things that are both technically
-          excellent and genuinely useful to people.
+      <!-- Left: text -->
+      <div class="hero__text">
+        <p class="hero__eyebrow">Hi, I'm</p>
+        <h1 class="hero__name">
+          <span class="hero__name-text">Sumeet Kumar</span>
+        </h1>
+        <p class="hero__tagline">
+          I am an <em>Automotive Software Engineer</em> working on next generation vehicles.
+          Currently focused on Embedded Software Development and Vehicle Testing.
         </p>
-        <p>
-          Before starting as a professional, I studied Vehicle Engineering at KTH Royal Institute of Technology in Stockholm. Outside of work I'm usually
-          learning Bachata, or reading about how to get jacked.
-        </p>
-        <div class="stat-row">
-          <div class="stat">
-            <span class="stat__number">4+</span>
-            <span class="stat__label">Years of experience</span>
-          </div>
-          <div class="stat">
-            <span class="stat__number">12</span>
-            <span class="stat__label">Projects shipped</span>
-          </div>
-          <div class="stat">
-            <span class="stat__number">3</span>
-            <span class="stat__label">Open-source tools</span>
-          </div>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">See my work</a>
+          <a href="#writing" class="btn btn--ghost">Read my writing</a>
+        </div>
+        <div class="hero__chips">
+          <span class="chip">Automotive Software Engineer</span>
+          <span class="chip">Based in Gothenburg, Sweden</span>
         </div>
       </div>
+
+      <!-- Right: headshot -->
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-ring">
+          <img
+            src="my_photo.jpg"
+            alt="Sumeet Kumar"
+            class="hero__photo"
+            onerror="this.parentElement.classList.add('hero__photo-ring--placeholder')"
+          />
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll arrow -->
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span class="scroll-arrow">↓</span>
     </div>
   </section>
 
