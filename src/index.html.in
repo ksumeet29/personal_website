@@ -19,8 +19,8 @@
       <a href="index.html" class="nav__logo">SK</a>
       <nav class="nav__links">
         <a href="about.html">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#writing">Writing</a>
+        <a href="projects.html">Projects</a>
+        <a href="writing.html">Writing</a>
         <a href="#contact">Contact</a>
       </nav>
       <a href="resume.pdf" class="btn btn--ghost" target="_blank">Resume ↗</a>
@@ -69,124 +69,6 @@
     <!-- Scroll arrow -->
     <div class="hero__scroll-hint" aria-hidden="true">
       <span class="scroll-arrow">↓</span>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section section--alt" id="projects">
-    <div class="section__inner">
-      <div class="section__label">Projects</div>
-      <h2 class="section__heading">Things I've built</h2>
-      <div class="card-grid">
-
-        <article class="card">
-          <div class="card__header">
-            <span class="card__tag">Web App</span>
-            <a href="#" class="card__link" aria-label="View Project One">↗</a>
-          </div>
-          <h3 class="card__title">Project One</h3>
-          <p class="card__desc">
-            A short description of what this does and why it matters. What problem does it solve?
-            Who uses it?
-          </p>
-          <div class="card__tech">
-            <span>React</span><span>TypeScript</span><span>Postgres</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card__header">
-            <span class="card__tag">Open Source</span>
-            <a href="#" class="card__link" aria-label="View Project Two">↗</a>
-          </div>
-          <h3 class="card__title">Project Two</h3>
-          <p class="card__desc">
-            What makes this project interesting or different. Keep it concrete — a real use
-            case is more compelling than vague praise.
-          </p>
-          <div class="card__tech">
-            <span>Python</span><span>FastAPI</span><span>Docker</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card__header">
-            <span class="card__tag">CLI Tool</span>
-            <a href="#" class="card__link" aria-label="View Project Three">↗</a>
-          </div>
-          <h3 class="card__title">Project Three</h3>
-          <p class="card__desc">
-            Describe the motivation behind building this. What were you frustrated by that
-            made you decide to build it yourself?
-          </p>
-          <div class="card__tech">
-            <span>Go</span><span>Shell</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card__header">
-            <span class="card__tag">Research</span>
-            <a href="#" class="card__link" aria-label="View Project Four">↗</a>
-          </div>
-          <h3 class="card__title">Project Four</h3>
-          <p class="card__desc">
-            A fourth project — or remove this card if you only have three things worth
-            showing. Quality beats quantity every time.
-          </p>
-          <div class="card__tech">
-            <span>C++</span><span>CMake</span>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- WRITING -->
-  <section class="section" id="writing">
-    <div class="section__inner">
-      <div class="section__label">Writing</div>
-      <h2 class="section__heading">Ideas worth sharing</h2>
-      <div class="post-list">
-
-        <a href="#" class="post">
-          <div class="post__meta">
-            <span class="post__date">Jun 2025</span>
-            <span class="post__tag">Engineering</span>
-          </div>
-          <h3 class="post__title">Your most interesting essay title goes here</h3>
-          <p class="post__excerpt">
-            A single sentence that makes the reader want to click. Lead with the insight,
-            not the topic.
-          </p>
-        </a>
-
-        <a href="#" class="post">
-          <div class="post__meta">
-            <span class="post__date">Mar 2025</span>
-            <span class="post__tag">Thinking</span>
-          </div>
-          <h3 class="post__title">A second piece you're proud of</h3>
-          <p class="post__excerpt">
-            What's the one idea in this post that someone would text to a friend? Lead
-            with that.
-          </p>
-        </a>
-
-        <a href="#" class="post">
-          <div class="post__meta">
-            <span class="post__date">Jan 2025</span>
-            <span class="post__tag">Tools</span>
-          </div>
-          <h3 class="post__title">Something practical and specific</h3>
-          <p class="post__excerpt">
-            Concrete beats abstract. "How I reduced compile time by 60%" outperforms
-            "Thoughts on build systems."
-          </p>
-        </a>
-
-      </div>
     </div>
   </section>
 

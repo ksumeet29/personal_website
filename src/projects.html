@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/personal_website/" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Sumeet Kumar</title>
+  <meta name="description" content="A look at some of the things I've built." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">SK</a>
+      <nav class="nav__links">
+        <a href="about.html">About</a>
+        <a href="projects.html" style="color: var(--text)">Projects</a>
+        <a href="writing.html">Writing</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a href="resume.pdf" class="btn btn--ghost" target="_blank">Resume ↗</a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="about-hero">
+    <div class="about-hero__inner">
+      <h1 class="about-hero__title">Projects</h1>
+      <p class="about-hero__sub">A look at some of the things I've built.</p>
+    </div>
+  </section>
+  
+  
+  <!-- PROJECTS -->
+  <section class="section section--alt" id="projects">
+    <div class="section__inner">
+      <div class="section__label">Projects</div>
+      <h2 class="section__heading">Things I've built</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__tag">Web App</span>
+            <a href="#" class="card__link" aria-label="View Project One">↗</a>
+          </div>
+          <h3 class="card__title">Project One</h3>
+          <p class="card__desc">
+            A short description of what this does and why it matters. What problem does it solve?
+            Who uses it?
+          </p>
+          <div class="card__tech">
+            <span>React</span><span>TypeScript</span><span>Postgres</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__tag">Open Source</span>
+            <a href="#" class="card__link" aria-label="View Project Two">↗</a>
+          </div>
+          <h3 class="card__title">Project Two</h3>
+          <p class="card__desc">
+            What makes this project interesting or different. Keep it concrete — a real use
+            case is more compelling than vague praise.
+          </p>
+          <div class="card__tech">
+            <span>Python</span><span>FastAPI</span><span>Docker</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__tag">CLI Tool</span>
+            <a href="#" class="card__link" aria-label="View Project Three">↗</a>
+          </div>
+          <h3 class="card__title">Project Three</h3>
+          <p class="card__desc">
+            Describe the motivation behind building this. What were you frustrated by that
+            made you decide to build it yourself?
+          </p>
+          <div class="card__tech">
+            <span>Go</span><span>Shell</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__header">
+            <span class="card__tag">Research</span>
+            <a href="#" class="card__link" aria-label="View Project Four">↗</a>
+          </div>
+          <h3 class="card__title">Project Four</h3>
+          <p class="card__desc">
+            A fourth project — or remove this card if you only have three things worth
+            showing. Quality beats quantity every time.
+          </p>
+          <div class="card__tech">
+            <span>C++</span><span>CMake</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
