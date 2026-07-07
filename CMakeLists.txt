@@ -25,6 +25,9 @@ configure_file(${CMAKE_SOURCE_DIR}/src/style.css  ${SITE_OUTPUT_DIR}/style.css  
 configure_file(${CMAKE_SOURCE_DIR}/src/script.js  ${SITE_OUTPUT_DIR}/script.js  COPYONLY)
 configure_file(${CMAKE_SOURCE_DIR}/src/resume.pdf ${SITE_OUTPUT_DIR}/resume.pdf COPYONLY)
 configure_file(${CMAKE_SOURCE_DIR}/src/about.html ${SITE_OUTPUT_DIR}/about.html COPYONLY)
+configure_file(${CMAKE_SOURCE_DIR}/src/projects.html ${SITE_OUTPUT_DIR}/projects.html COPYONLY)
+configure_file(${CMAKE_SOURCE_DIR}/src/writing.html ${SITE_OUTPUT_DIR}/writing.html COPYONLY)
+
 
 # Tell GitHub Pages not to run Jekyll on the output
 file(WRITE ${SITE_OUTPUT_DIR}/.nojekyll "")
